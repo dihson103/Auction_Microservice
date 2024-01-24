@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AuctionItems.Application/1.0.0": {
+        "dependencies": {
+          "AuctionItems.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AuctionItems.Application.dll": {}
+        }
+      },
+      "AuctionItems.Domain/1.0.0": {
+        "runtime": {
+          "AuctionItems.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AuctionItems.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AuctionItems.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

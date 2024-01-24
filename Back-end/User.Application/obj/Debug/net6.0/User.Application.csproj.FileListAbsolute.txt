@@ -1,0 +1,15 @@
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\bin\Debug\net6.0\User.Application.deps.json
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\bin\Debug\net6.0\User.Application.dll
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\bin\Debug\net6.0\User.Application.pdb
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\bin\Debug\net6.0\User.Domain.dll
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\bin\Debug\net6.0\User.Domain.pdb
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.csproj.AssemblyReference.cache
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.AssemblyInfoInputs.cache
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.AssemblyInfo.cs
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.csproj.CoreCompileInputs.cache
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.csproj.CopyComplete
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.dll
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\refint\User.Application.dll
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\User.Application.pdb
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.Application\obj\Debug\net6.0\ref\User.Application.dll

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace User.Domain
 {
-    public enum Role
+    public class Role
     {
-        ADMIN, USER
+        public static string USER = "USER";
+        public static string ADMIN = "ADMIN";
     }
 }

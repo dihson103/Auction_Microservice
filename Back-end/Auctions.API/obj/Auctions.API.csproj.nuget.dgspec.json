@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.API\\Auctions.API.csproj": {}
+  },
+  "projects": {
+    "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.API\\Auctions.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.API\\Auctions.API.csproj",
+        "projectName": "Auctions.API",
+        "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.API\\Auctions.API.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\Auctions.Application.csproj": {
+                "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\Auctions.Application.csproj"
+              },
+              "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Infrastructure\\Auctions.Infrastructure.csproj": {
+                "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Infrastructure\\Auctions.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\Auctions.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\Auctions.Application.csproj",
+        "projectName": "Auctions.Application",
+        "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\Auctions.Application.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Domain\\Auctions.Domain.csproj": {
+                "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Domain\\Auctions.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Domain\\Auctions.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Domain\\Auctions.Domain.csproj",
+        "projectName": "Auctions.Domain",
+        "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Domain\\Auctions.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Infrastructure\\Auctions.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Infrastructure\\Auctions.Infrastructure.csproj",
+        "projectName": "Auctions.Infrastructure",
+        "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Infrastructure\\Auctions.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\Auctions.Application.csproj": {
+                "projectPath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\Auctions.Application\\Auctions.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -29,7 +29,7 @@ namespace User.Domain
         public string Address { get; set; }
 
         [Required]
-        public Role Role { get; set; } = Role.USER;
+        public string Role { get; set; }
 
         [Required]
         public bool Status { get; set; } = true;
