@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BCrypt.Net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,7 @@ namespace User.Application
             if(isUserExist) throw new UserException((int)HttpStatusCode.BadRequest, $"User has id: {userRequest.Id} is already exist!");
 
             var user = _mapper.Map<Domain.User>(userRequest);
+            user.Password = BCrypt.Net.BCrypt.EnhancedHashPassword(userRequest.Password, 10);
             user.Role = Role.USER;
 
             _userRepository.AddUser(user);

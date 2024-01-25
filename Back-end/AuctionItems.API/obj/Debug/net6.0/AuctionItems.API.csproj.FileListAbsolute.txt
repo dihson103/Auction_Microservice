@@ -91,3 +91,5 @@ D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\AuctionItems.API\obj\Debug\n
 D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\AuctionItems.API\obj\Debug\net6.0\AuctionItems.API.pdb
 D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\AuctionItems.API\obj\Debug\net6.0\AuctionItems.API.genruntimeconfig.cache
 D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\AuctionItems.API\obj\Debug\net6.0\ref\AuctionItems.API.dll
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\AuctionItems.API\bin\Debug\net6.0\AutoMapper.dll
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\AuctionItems.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

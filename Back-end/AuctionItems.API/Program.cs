@@ -1,3 +1,4 @@
+using AuctionItems.API.MiddleWare;
 using AuctionItems.Application;
 using AuctionItems.Infrastructure;
 using Microsoft.EntityFrameworkCore;

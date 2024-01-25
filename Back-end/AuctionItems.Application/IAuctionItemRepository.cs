@@ -17,5 +17,6 @@ namespace AuctionItems.Application
         void AddAuctionItem(AuctionItem auctionItem);
         void DeleteAuctionItem(int id);
         void UpdateAuctionItem(AuctionItem auctionItem);
+        bool IsAuctionItemExist(int id);
     }
 }

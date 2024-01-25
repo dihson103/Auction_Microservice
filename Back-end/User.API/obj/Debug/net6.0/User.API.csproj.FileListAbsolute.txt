@@ -93,3 +93,4 @@ D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.API\bin\Debug\net6.0\Sy
 D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.API\bin\Debug\net6.0\AutoMapper.dll
 D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ky8\1_PRN231\Project\AuctionApplication\Back-end\User.API\bin\Debug\net6.0\BCrypt.Net-Next.dll

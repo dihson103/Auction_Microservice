@@ -8,5 +8,6 @@ namespace Auctions.Application
 {
     public class IAuctionService
     {
+
     }
 }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ckD0/Kk+3rxCJoL7TX1U9Wee0T0+8oxKOM52D8IN6Jy49MvhCaaTowIU2bZUlGMASmv5Jwu0RsEz+EMEfv8Riw==",
+  "dgSpecHash": "nrqhGoGwv4Pp5OZ9DApxkCv8sLDoTAmHAhq6lbJaaECFd/ZE6DmfDOIc3cRAezCrFMYBku2KiDRG7u4TDiRCbg==",
   "success": true,
   "projectFilePath": "D:\\ky8\\1_PRN231\\Project\\AuctionApplication\\Back-end\\User.Application\\User.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

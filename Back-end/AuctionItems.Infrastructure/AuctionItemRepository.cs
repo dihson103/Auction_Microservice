@@ -18,42 +18,67 @@ namespace AuctionItems.Infrastructure
 
         public void AddAuctionItem(AuctionItem auctionItem)
         {
-            throw new NotImplementedException();
+            _context.AuctionItems.Add(auctionItem);
+            _context.SaveChanges();
         }
 
         public void DeleteAuctionItem(int id)
         {
-            throw new NotImplementedException();
+            var item = GetAuctionItemById(id);
+            item.Status = false;
+
+            _context.AuctionItems.Update(item);
+            _context.SaveChanges();
         }
 
         public List<AuctionItem> GetAllAuctionItems()
         {
-            throw new NotImplementedException();
+            var items = _context.AuctionItems.ToList();
+            return items;
         }
 
         public List<AuctionItem> GetAnnouncementItem()
         {
-            throw new NotImplementedException();
+            var currentDate = DateTime.Now;
+            var items = _context.AuctionItems
+                .Where(item => item.Status == true && item.StartDateTime >= currentDate)
+                .ToList();
+            return items;
         }
 
         public AuctionItem GetAuctionItemById(int id)
         {
-            throw new NotImplementedException();
+            var item = _context.AuctionItems.SingleOrDefault(i => i.AuctionId== id);
+            return item;
         }
 
         public List<AuctionItem> GetAuctionItemsAuctioning()
         {
-            throw new NotImplementedException();
+            var currentDate = DateTime.Now;
+            var auctionItems = _context.AuctionItems.
+                Where(item => item.Status == true && item.StartDateTime<= currentDate && currentDate <= item.EndDateTime)
+                .ToList();
+            return auctionItems;   
         }
 
         public List<AuctionItem> GetAuctionItemsCompleted()
         {
-            throw new NotImplementedException();
+            var currentDate = DateTime.Now;
+            var auctionItems = _context.AuctionItems.
+                Where(item => item.Status == true && item.StartDateTime <= currentDate && currentDate >= item.EndDateTime)
+                .ToList();
+            return auctionItems;
+        }
+
+        public bool IsAuctionItemExist(int id)
+        {
+            return _context.AuctionItems.Any(i => i.AuctionId== id);
         }
 
         public void UpdateAuctionItem(AuctionItem auctionItem)
         {
-            throw new NotImplementedException();
+            _context.AuctionItems.Update(auctionItem);
+            _context.SaveChanges();
         }
     }
 }

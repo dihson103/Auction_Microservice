@@ -34,7 +34,7 @@ namespace User.API.MiddleWare
                 var error = new
                 {
                     Status = StatusCodes.Status500InternalServerError,
-                    Message = "Internal Server Error"
+                    Message = "There is something wrong!"
                 };
 
                 await context.Response.WriteAsJsonAsync(error);
