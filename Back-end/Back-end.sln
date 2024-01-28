@@ -19,33 +19,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuctionItems", "AuctionItems", "{A757A198-8C2E-4C4E-B53A-890BA4825236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionItems.API", "AuctionItems.API\AuctionItems.API.csproj", "{F415DB0B-1DD5-4092-91FA-422804557FAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionItems.API", "AuctionItems.API\AuctionItems.API.csproj", "{F415DB0B-1DD5-4092-91FA-422804557FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionItems.Domain", "AuctionItems.Domain\AuctionItems.Domain.csproj", "{C9ABAF18-A9EC-4E2C-BB4E-AAF054747808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionItems.Domain", "AuctionItems.Domain\AuctionItems.Domain.csproj", "{C9ABAF18-A9EC-4E2C-BB4E-AAF054747808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionItems.Application", "AuctionItems.Application\AuctionItems.Application.csproj", "{F7420C3E-5796-44E2-9748-187466F05AF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionItems.Application", "AuctionItems.Application\AuctionItems.Application.csproj", "{F7420C3E-5796-44E2-9748-187466F05AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionItems.Infrastructure", "AuctionItems.Infrastructure\AuctionItems.Infrastructure.csproj", "{DB564E26-4AF4-43B2-887F-2B7C8D1DF649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionItems.Infrastructure", "AuctionItems.Infrastructure\AuctionItems.Infrastructure.csproj", "{DB564E26-4AF4-43B2-887F-2B7C8D1DF649}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{121C0DE5-620A-4E1C-93A0-0C2CF02DB432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Domain", "Payments.Domain\Payments.Domain.csproj", "{5EA68D4B-DBC9-4F41-B872-46CCDF44E3F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.Domain", "Payments.Domain\Payments.Domain.csproj", "{5EA68D4B-DBC9-4F41-B872-46CCDF44E3F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Application", "Payments.Application\Payments.Application.csproj", "{B1C8E2D7-2BB3-4751-8558-94EDA4561AAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.Application", "Payments.Application\Payments.Application.csproj", "{B1C8E2D7-2BB3-4751-8558-94EDA4561AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Infrastructure", "Payments.Infrastructure\Payments.Infrastructure.csproj", "{4980F097-3E8D-482F-AAE4-BA1F8AC70CA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.Infrastructure", "Payments.Infrastructure\Payments.Infrastructure.csproj", "{4980F097-3E8D-482F-AAE4-BA1F8AC70CA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.API", "Payments.API\Payments.API.csproj", "{FF025C2A-F3CF-406C-BED4-414A1D616E0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.API", "Payments.API\Payments.API.csproj", "{FF025C2A-F3CF-406C-BED4-414A1D616E0A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auctions", "Auctions", "{8FB00FFB-EE16-4719-BAD7-3CAB37A87E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctions.Domain", "Auctions.Domain\Auctions.Domain.csproj", "{9E8FDD9E-5195-48F3-8E48-BCA241D9B0CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auctions.Domain", "Auctions.Domain\Auctions.Domain.csproj", "{9E8FDD9E-5195-48F3-8E48-BCA241D9B0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctions.Application", "Auctions.Application\Auctions.Application.csproj", "{35AD22FC-8C36-4F77-AF36-60BDA4B1008A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auctions.Application", "Auctions.Application\Auctions.Application.csproj", "{35AD22FC-8C36-4F77-AF36-60BDA4B1008A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctions.Infrastructure", "Auctions.Infrastructure\Auctions.Infrastructure.csproj", "{16FA822D-1C78-4634-A3CE-C5221FC7EFAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auctions.Infrastructure", "Auctions.Infrastructure\Auctions.Infrastructure.csproj", "{16FA822D-1C78-4634-A3CE-C5221FC7EFAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auctions.API", "Auctions.API\Auctions.API.csproj", "{5B9DC37F-7CC6-4638-9837-9F619D5EB221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auctions.API", "Auctions.API\Auctions.API.csproj", "{5B9DC37F-7CC6-4638-9837-9F619D5EB221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{A3F181CD-2E8C-40EA-8EB7-7541B2730E24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{5B9DC37F-7CC6-4638-9837-9F619D5EB221}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B9DC37F-7CC6-4638-9837-9F619D5EB221}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B9DC37F-7CC6-4638-9837-9F619D5EB221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F181CD-2E8C-40EA-8EB7-7541B2730E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F181CD-2E8C-40EA-8EB7-7541B2730E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F181CD-2E8C-40EA-8EB7-7541B2730E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F181CD-2E8C-40EA-8EB7-7541B2730E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +148,7 @@ Global
 		{35AD22FC-8C36-4F77-AF36-60BDA4B1008A} = {8FB00FFB-EE16-4719-BAD7-3CAB37A87E02}
 		{16FA822D-1C78-4634-A3CE-C5221FC7EFAE} = {8FB00FFB-EE16-4719-BAD7-3CAB37A87E02}
 		{5B9DC37F-7CC6-4638-9837-9F619D5EB221} = {8FB00FFB-EE16-4719-BAD7-3CAB37A87E02}
+		{A3F181CD-2E8C-40EA-8EB7-7541B2730E24} = {52B6F71F-A588-4092-818E-96DA1E4B91CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7222B346-CEBD-4629-BCFC-504D14222439}
